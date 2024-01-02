@@ -530,7 +530,30 @@ nav{
     text-align: center;
 
 }
+
+.hamburger{
+  display: none;
+}
 @media (max-width: 1000px){
+
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .menu-Btn{
+    margin-right: 20px;
+    
+  }
+
+  .hamburger{
+    display: block;
+    font-size: 35px;
+    background: transparent;
+    border:none;
+  }
     .title{
         font-size: 80px;
     }
@@ -568,5 +591,23 @@ nav{
     }
     .social{
         margin: 10px;
+    }
+    .img{
+      height: 400px;
+      width: 350px;
+    }
+
+    nav{
+      display: block;
+    }
+    .nav{
+      
+      margin-top: 10px;
+      display: block;
+      text-align: center;
+    }
+    .navLink{
+      display: none;
+      margin-top: 10px;
     }
 }

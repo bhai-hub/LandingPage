@@ -49,3 +49,11 @@ var FeedSlider = new Swiper(".feed-content", {
         }
     }
 })
+
+$(document).ready(function(){
+  $('.hamburger').click(function() {
+      $('.navLink').toggle();
+  });
+
+  
+  });
