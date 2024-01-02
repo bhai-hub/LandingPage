@@ -131,6 +131,7 @@ body {
 }
 
 .tranding-slide-content .food-price {
+  color: rgb(255, 117, 117);
   position: absolute;
   top: 2rem;
   right: 2rem;
@@ -138,10 +139,15 @@ body {
 }
 
 .tranding-slide-content .tranding-slide-content-bottom {
+  color: #000;
   position: absolute;
   bottom: 2rem;
   left: 2rem;
   color: var(--white);
+}
+
+.food-name , .food-rating>span, .food-price{
+  color: rgb(246, 69, 69);  
 }
 
 .food-rating {
