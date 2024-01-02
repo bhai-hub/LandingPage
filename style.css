@@ -22,24 +22,24 @@ html {
 
 @media (min-width: 1440px) {
   .menu {
-    zoom: 1.5;
+    zoom: 0.5;
   }
 }
 
 @media (min-width: 2560px) {
   .menu {
-    zoom: 1.7;
+    zoom: 0.7;
   }
 }
 
 @media (min-width: 3860px) {
   .menu {
-    zoom: 2.5;
+    zoom: 0.5;
   }
 }
 
 ::-webkit-scrollbar {
-  width: 1.3rem;
+  width: 1.0rem;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -57,7 +57,6 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
   background: var(--bg);
 }
 
@@ -107,12 +106,12 @@ body {
 
 @media (max-width:500px) {
   .tranding-slide {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 25rem !important;
+    height: 33rem !important;
   }
   .tranding-slide .tranding-slide-img img {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 25rem !important;
+    height: 33rem !important;
   }
 }
 
